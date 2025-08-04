@@ -9,7 +9,7 @@
 		<relativePath/> <!-- lookup parent from repository -->
 	</parent>
 	<groupId>com.TechGroup</groupId>
-	<artifactId>TechCop</artifactId>
+	<artifactId>backend</artifactId>
 	<version>0.0.1-SNAPSHOT</version>
 	<name>TechCop</name>
 	<description>Ecommerce hardware </description>
