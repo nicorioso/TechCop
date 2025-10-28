@@ -1,17 +1,13 @@
 import { v2 as cloudinary } from 'cloudinary';
-import { uploadImage } from './upload_image';
 
-
-(async function() {
-    //Configuration
-
+(async function cloudinaryConfig() {
+    // Configuration
     cloudinary.config({
         cloud_name: 'dmi0txtoy',
         api_key: '836738648561445',
         api_secret: '**********'
     });
 
-    // Upload image
-    <uploadImage/>
-    
-})
+});
+
+export default cloudinaryConfig;
