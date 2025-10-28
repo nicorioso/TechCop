@@ -6,12 +6,18 @@
   <component name="ChangeListManager">
     <list default="true" id="f8947732-d786-4d78-a929-70f23a4ec249" name="Changes" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+<<<<<<< HEAD
       <change beforePath="$PROJECT_DIR$/backend/src/main/java/com/techgroup/techcop/domain/Customer.java" beforeDir="false" afterPath="$PROJECT_DIR$/backend/src/main/java/com/techgroup/techcop/domain/Customer.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/backend/src/main/resources/application.properties" beforeDir="false" afterPath="$PROJECT_DIR$/backend/src/main/resources/application.properties" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/frontend/src/components/IU/forms/input.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/frontend/src/components/IU/forms/input.jsx" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/frontend/src/components/auth/register/form.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/frontend/src/components/auth/register/form.jsx" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/frontend/src/hooks/auth/register_hook.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/frontend/src/hooks/auth/register_hook.jsx" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/frontend/src/main.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/frontend/src/main.jsx" afterDir="false" />
+=======
+      <change beforePath="$PROJECT_DIR$/backend/src/main/java/com/techgroup/techcop/domain/CartItem.java" beforeDir="false" afterPath="$PROJECT_DIR$/backend/src/main/java/com/techgroup/techcop/domain/CartItem.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/backend/src/main/java/com/techgroup/techcop/domain/Carts.java" beforeDir="false" afterPath="$PROJECT_DIR$/backend/src/main/java/com/techgroup/techcop/domain/Carts.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/backend/src/main/java/com/techgroup/techcop/domain/Customer.java" beforeDir="false" afterPath="$PROJECT_DIR$/backend/src/main/java/com/techgroup/techcop/domain/Customer.java" afterDir="false" />
+>>>>>>> 5d0de4a502e7753643de61ee9347d9a65a82f008
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -41,6 +47,7 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
+<<<<<<< HEAD
   <component name="PropertiesComponent"><![CDATA[{
   "keyToString": {
     "ModuleVcsDetector.initialDetectionPerformed": "true",
@@ -65,6 +72,27 @@
   }
 }]]></component>
   <component name="RunManager">
+=======
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;ModuleVcsDetector.initialDetectionPerformed&quot;: &quot;true&quot;,
+    &quot;RequestMappingsPanelOrder0&quot;: &quot;0&quot;,
+    &quot;RequestMappingsPanelOrder1&quot;: &quot;1&quot;,
+    &quot;RequestMappingsPanelWidth0&quot;: &quot;75&quot;,
+    &quot;RequestMappingsPanelWidth1&quot;: &quot;75&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.git.unshallow&quot;: &quot;true&quot;,
+    &quot;SHELLCHECK.PATH&quot;: &quot;C:\\Users\\alexe\\AppData\\Roaming\\JetBrains\\IdeaIC2025.1\\plugins\\Shell Script\\shellcheck.exe&quot;,
+    &quot;Spring Boot.TechCopApplication.executor&quot;: &quot;Run&quot;,
+    &quot;git-widget-placeholder&quot;: &quot;development&quot;,
+    &quot;ignore.virus.scanning.warn.message&quot;: &quot;true&quot;,
+    &quot;kotlin-language-version-configured&quot;: &quot;true&quot;,
+    &quot;last_opened_file_path&quot;: &quot;C:/Users/alexe/OneDrive/Documentos/TechCop&quot;,
+    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;
+  }
+}</component>
+  <component name="RunManager" selected="Spring Boot.TechCopApplication">
+>>>>>>> 5d0de4a502e7753643de61ee9347d9a65a82f008
     <configuration name="mvnw" type="ShConfigurationType" temporary="true">
       <option name="SCRIPT_TEXT" value="" />
       <option name="INDEPENDENT_SCRIPT_PATH" value="true" />
