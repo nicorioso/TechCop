@@ -5,15 +5,9 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="f8947732-d786-4d78-a929-70f23a4ec249" name="Changes" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/dataSources.local.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/dataSources.local.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/backend/src/main/java/com/techgroup/techcop/CorsConfig.java" beforeDir="false" afterPath="$PROJECT_DIR$/backend/src/main/java/com/techgroup/techcop/CorsConfig.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/frontend/src/components/IU/alerts/success.jsx" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/frontend/src/components/IU/forms/card.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/frontend/src/components/IU/forms/card.jsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/frontend/src/components/IU/image.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/frontend/src/components/IU/image.jsx" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/frontend/src/components/auth/register/form.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/frontend/src/components/auth/register/form.jsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/frontend/src/hooks/alerts/useAlert.jsx" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/frontend/src/hooks/auth/register_hook.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/frontend/src/hooks/auth/register_hook.jsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/frontend/src/routes.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/frontend/src/routes.jsx" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -59,14 +53,15 @@
     "git-widget-placeholder": "integracionRegistro",
     "ignore.virus.scanning.warn.message": "true",
     "kotlin-language-version-configured": "true",
-    "last_opened_file_path": "C:/Users/alexe/OneDrive/Documentos/TechCop",
+    "last_opened_file_path": "C:/Users/SENA/Documents/TechCop",
     "node.js.detected.package.eslint": "true",
     "node.js.selected.package.eslint": "(autodetect)",
     "node.js.selected.package.tslint": "(autodetect)",
-    "nodejs_package_manager_path": "npm"
+    "nodejs_package_manager_path": "npm",
+    "vue.rearranger.settings.migration": "true"
   }
 }]]></component>
-  <component name="RunManager">
+  <component name="RunManager" selected="Spring Boot.TechCopApplication">
     <configuration name="mvnw" type="ShConfigurationType" temporary="true">
       <option name="SCRIPT_TEXT" value="" />
       <option name="INDEPENDENT_SCRIPT_PATH" value="true" />
@@ -98,9 +93,17 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Spring Boot.TechCopApplication" />
         <item itemvalue="Shell Script.mvnw" />
       </list>
     </recent_temporary>
+  </component>
+  <component name="SharedIndexes">
+    <attachedChunks>
+      <set>
+        <option value="bundled-jdk-9823dce3aa75-bf35d07a577b-intellij.indexing.shared.core-IU-252.27397.103" />
+      </set>
+    </attachedChunks>
   </component>
   <component name="TaskManager">
     <task active="true" id="Default" summary="Default task">
@@ -109,6 +112,7 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1756730828530</updated>
+      <workItem from="1761759428885" duration="1443000" />
     </task>
     <servers />
   </component>
