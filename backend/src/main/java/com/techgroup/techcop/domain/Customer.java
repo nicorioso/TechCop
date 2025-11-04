@@ -1,89 +1,143 @@
 package com.techgroup.techcop.domain;
 
 import jakarta.persistence.*;
+import org.hibernate.annotations.CreationTimestamp;
+import org.hibernate.annotations.UpdateTimestamp;
+
+import java.time.LocalDateTime;
 
 @Entity
-@Table(name = "Customer")
+@Table(name = "customers")
 public class Customer {
 
     @Id
     @GeneratedValue(strategy = GenerationType.IDENTITY)
-    private Integer customer_id;
-    private String name;
-    private String last_name;
-    private String email;
-    private String user_password;
-    private String phone_number;
-    private Integer role_id;
+    @Column(name = "customer_id")
+    private Integer customerId;
+
+    @Column(name = "customer_name")
+    private String customerName;
+
+    @Column(name = "customer_last_name")
+    private String customerLastName;
+
+    @Column(name = "customer_email")
+    private String customerEmail;
+
+    @Column(name = "customer_password")
+    private String customerPassword;
+
+    @Column(name = "customer_phone_number")
+    private String customerPhoneNumber;
+
+    @Column(name = "role_id")
+    private Integer roleId;
+
+    @Column(name = "created_at", nullable = false, updatable = false)
+    @CreationTimestamp
+    private LocalDateTime createdAt;
+
+    @Column(name = "updated_at")
+    @UpdateTimestamp
+    private LocalDateTime updatedAt;
+
+    @OneToOne(mappedBy = "customer", cascade = CascadeType.ALL, orphanRemoval = true)
+    private Carts cart;
 
     public Customer() {
 
     }
 
-    public Customer(Integer customer_id, String name, String last_name, String email, String user_password
-            , String phone_number, Integer role_id) {
-        this.customer_id = customer_id;
-        this.name = name;
-        this.last_name = last_name;
-        this.email = email;
-        this.user_password = user_password;
-        this.phone_number = phone_number;
-        this.role_id = role_id;
+    public Customer(Integer customerId, String customerName, String customerLastName, String customerEmail, String customerPassword, String customerPhoneNumber, Integer roleId, LocalDateTime createdAt, LocalDateTime updatedAt, Carts cart) {
+        this.customerId = customerId;
+        this.customerName = customerName;
+        this.customerLastName = customerLastName;
+        this.customerEmail = customerEmail;
+        this.customerPassword = customerPassword;
+        this.customerPhoneNumber = customerPhoneNumber;
+        this.roleId = roleId;
+        this.createdAt = createdAt;
+        this.updatedAt = updatedAt;
+        this.cart = cart;
     }
 
-    public Integer getCustomer_id() {
-        return customer_id;
+    public Integer getCustomerId() {
+        return customerId;
     }
 
-    public void setCustomer_id(Integer customer_id) {
-        this.customer_id = customer_id;
+    public void setCustomerId(Integer customerId) {
+        this.customerId = customerId;
     }
 
-    public String getName() {
-        return name;
+    public String getCustomerName() {
+        return customerName;
     }
 
-    public void setName(String name) {
-        this.name = name;
+    public void setCustomerName(String customerName) {
+        this.customerName = customerName;
     }
 
-    public String getLast_name() {
-        return last_name;
+    public String getCustomerLastName() {
+        return customerLastName;
     }
 
-    public void setLast_name(String last_name) {
-        this.last_name = last_name;
+    public void setCustomerLastName(String customerLastName) {
+        this.customerLastName = customerLastName;
     }
 
-    public String getEmail() {
-        return email;
+    public String getCustomerEmail() {
+        return customerEmail;
     }
 
-    public void setEmail(String email) {
-        this.email = email;
+    public void setCustomerEmail(String customerEmail) {
+        this.customerEmail = customerEmail;
     }
 
-    public String getUser_password() {
-        return user_password;
+    public String getCustomerPassword() {
+        return customerPassword;
     }
 
-    public void setUser_password(String user_password) {
-        this.user_password = user_password;
+    public void setCustomerPassword(String customerPassword) {
+        this.customerPassword = customerPassword;
     }
 
-    public String getPhone_number() {
-        return phone_number;
+    public String getCustomerPhoneNumber() {
+        return customerPhoneNumber;
     }
 
-    public void setPhone_number(String phone_number) {
-        this.phone_number = phone_number;
+    public void setCustomerPhoneNumber(String customerPhoneNumber) {
+        this.customerPhoneNumber = customerPhoneNumber;
     }
 
-    public Integer getRole_id() {
-        return role_id;
+    public Integer getRoleId() {
+        return roleId;
     }
 
-    public void setRole_id(Integer role_id) {
-        this.role_id = role_id;
+    public void setRoleId(Integer roleId) {
+        this.roleId = roleId;
+    }
+
+    public Carts getCart() {
+        return cart;
+    }
+
+    public void setCart(Carts cart) {
+        this.cart = cart;
+    }
+
+    public LocalDateTime getCreatedAt() {
+        return createdAt;
+    }
+
+    public void setCreatedAt(LocalDateTime createdAt) {
+        this.createdAt = createdAt;
+    }
+
+    public LocalDateTime getUpdatedAt() {
+        return updatedAt;
+    }
+
+    public void setUpdatedAt(LocalDateTime updatedAt) {
+        this.updatedAt = updatedAt;
     }
 }

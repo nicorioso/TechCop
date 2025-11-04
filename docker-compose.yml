@@ -1,0 +1,23 @@
+version: "3.9"
+services:
+  backend:
+    build: ./backend
+    container_name: mi-backend
+    ports:
+      - "8080:8080"
+    networks:
+      - mi-red
+
+  frontend:
+    build: ./frontend
+    container_name: mi-frontend
+    ports:
+      - "5173:80"
+    depends_on:
+      - backend
+    networks:
+      - mi-red
+
+networks:
+  mi-red:
+    driver: bridge

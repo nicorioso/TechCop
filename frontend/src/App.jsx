@@ -1,16 +1,14 @@
 import { useState } from 'react'
-import ContactForm from './layouts/contact_form.jsx'
 import reactLogo from './assets/react.svg'
 import viteLogo from '/vite.svg'
-import './App.css'
+import Sidebar from "./layouts/users/sidebar.jsx";
+import UserDashboard from './layouts/users/admin/user_dashboard.jsx';
+import LoginForm from "./layouts/auth/login/login_form.jsx";
 
-function App() {
-  const [count, setCount] = useState(0)
+export default function App() {
+  const [count, setCount] = useState('');
 
   return (
-    <ContactForm/>
-
+    <LoginForm/>
   )
 }
-
-export default App
