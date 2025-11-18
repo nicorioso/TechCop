@@ -1,7 +1,7 @@
 import React from 'react';
 import { getImageById } from '../../hooks/getImageById';
 
-function ImageComponent({style, id, altText = 'Imagen' }) {
+function ImageComponent({style, id, alttext = 'Imagen' }) {
   const image = getImageById(id);
 
   if (!image) {
@@ -11,8 +11,8 @@ function ImageComponent({style, id, altText = 'Imagen' }) {
   return (
     <img
       src={image.url}
-      altText={altText}
-      className={"mx-auto h-20 w-auto"}
+      alttext={alttext}
+      className={`mx-auto ${style}`}
     />
   );
 }
