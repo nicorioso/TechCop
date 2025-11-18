@@ -6,9 +6,14 @@
   <component name="ChangeListManager">
     <list default="true" id="f8947732-d786-4d78-a929-70f23a4ec249" name="Changes" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+<<<<<<< HEAD
       <change beforePath="$PROJECT_DIR$/backend/src/main/java/com/techgroup/techcop/paypal/PaypalController.java" beforeDir="false" afterPath="$PROJECT_DIR$/backend/src/main/java/com/techgroup/techcop/paypal/PaypalController.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/frontend/package-lock.json" beforeDir="false" afterPath="$PROJECT_DIR$/frontend/package-lock.json" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/frontend/src/components/IU/forms/card.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/frontend/src/components/IU/forms/card.jsx" afterDir="false" />
+=======
+      <change beforePath="$PROJECT_DIR$/backend/src/main/java/com/techgroup/techcop/controllers/ProductController.java" beforeDir="false" afterPath="$PROJECT_DIR$/backend/src/main/java/com/techgroup/techcop/controllers/ProductController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/backend/src/main/java/com/techgroup/techcop/service/product/impl/ProductServiceImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/backend/src/main/java/com/techgroup/techcop/service/product/impl/ProductServiceImpl.java" afterDir="false" />
+>>>>>>> 4b8a7aab65467458c0312241a47640a8131ffd5c
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -63,7 +68,11 @@
     "ignore.virus.scanning.warn.message": "true",
     "junie.onboarding.icon.badge.shown": "true",
     "kotlin-language-version-configured": "true",
+<<<<<<< HEAD
     "last_opened_file_path": "C:/Users/SENA/Documents/TechCop",
+=======
+    "last_opened_file_path": "C:/Users/alexe/OneDrive/Documentos/TechCop",
+>>>>>>> 4b8a7aab65467458c0312241a47640a8131ffd5c
     "node.js.detected.package.eslint": "true",
     "node.js.selected.package.eslint": "(autodetect)",
     "node.js.selected.package.tslint": "(autodetect)",
@@ -73,7 +82,11 @@
     "vue.rearranger.settings.migration": "true"
   }
 }]]></component>
+<<<<<<< HEAD
   <component name="RunManager">
+=======
+  <component name="RunManager" selected="Application.TechCopApplication">
+>>>>>>> 4b8a7aab65467458c0312241a47640a8131ffd5c
     <configuration name="TechCopApplication" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="com.techgroup.techcop.TechCopApplication" />
       <module name="backend" />
