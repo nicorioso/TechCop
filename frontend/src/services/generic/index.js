@@ -1,1 +1,0 @@
-export {default as crudService} from './crud_services';

@@ -4,136 +4,227 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="31d1a554-74db-4c31-86f4-48d24e193389" name="Changes" comment="">
+    <list default="true" id="8d392647-69b8-4cb1-988e-3229a26c93ad" name="Changes" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/.gitignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/compiler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/dataSources.local.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/dataSources.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/dataSources/95c5ec1f-42bb-40e5-a3f1-cc6206f253cf.corrupted.20251118-061724.reason.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/dataSources/95c5ec1f-42bb-40e5-a3f1-cc6206f253cf.corrupted.20251118-061724.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/dataSources/95c5ec1f-42bb-40e5-a3f1-cc6206f253cf.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/dataSources/95c5ec1f-42bb-40e5-a3f1-cc6206f253cf/storage_v2/_src_/schema/information_schema.FNRwLQ.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/dataSources/95c5ec1f-42bb-40e5-a3f1-cc6206f253cf/storage_v2/_src_/schema/mysql.osA4Bg.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/dataSources/95c5ec1f-42bb-40e5-a3f1-cc6206f253cf/storage_v2/_src_/schema/performance_schema.kIw0nw.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/dataSources/95c5ec1f-42bb-40e5-a3f1-cc6206f253cf/storage_v2/_src_/schema/sys.zb4BAA.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/encodings.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/vcs.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/backend/src/main/resources/application.properties" beforeDir="false" afterPath="$PROJECT_DIR$/backend/src/main/resources/application.properties" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/frontend/src/components/IU/forms/card.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/frontend/src/components/IU/forms/card.jsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/frontend/src/components/IU/headers/Main.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/frontend/src/components/IU/headers/Main.jsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/frontend/src/layouts/auth/register/register_form.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/frontend/src/layouts/auth/register/register_form.jsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Backend_TechCol/src/main/resources/application.properties" beforeDir="false" afterPath="$PROJECT_DIR$/Backend_TechCol/src/main/resources/application.properties" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Makefile" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/backend/.gitattributes" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/backend/.gitignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/backend/.mvn/wrapper/maven-wrapper.properties" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/backend/Dockerfile" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/backend/mvnw" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/backend/mvnw.cmd" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/backend/pom.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/backend/src/main/java/com/techgroup/techcop/TechCopApplication.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/backend/src/main/java/com/techgroup/techcop/config/CorsConfig.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/backend/src/main/java/com/techgroup/techcop/config/PaypalConfig.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/backend/src/main/java/com/techgroup/techcop/controllers/AuthController.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/backend/src/main/java/com/techgroup/techcop/controllers/CartController.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/backend/src/main/java/com/techgroup/techcop/controllers/CustomerController.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/backend/src/main/java/com/techgroup/techcop/controllers/ProductController.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/backend/src/main/java/com/techgroup/techcop/controllers/WebController.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/backend/src/main/java/com/techgroup/techcop/model/dto/LoginRequest.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/backend/src/main/java/com/techgroup/techcop/model/dto/ProductRequest.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/backend/src/main/java/com/techgroup/techcop/model/entity/CartItem.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/backend/src/main/java/com/techgroup/techcop/model/entity/Carts.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/backend/src/main/java/com/techgroup/techcop/model/entity/Customer.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/backend/src/main/java/com/techgroup/techcop/model/entity/Products.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/backend/src/main/java/com/techgroup/techcop/paypal/PaypalController.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/backend/src/main/java/com/techgroup/techcop/paypal/PaypalService.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/backend/src/main/java/com/techgroup/techcop/repository/CartDetailsRepository.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/backend/src/main/java/com/techgroup/techcop/repository/CartsRepository.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/backend/src/main/java/com/techgroup/techcop/repository/CustomerRepository.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/backend/src/main/java/com/techgroup/techcop/repository/ProductsRepository.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/backend/src/main/java/com/techgroup/techcop/security/config/SecurityConfig.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/backend/src/main/java/com/techgroup/techcop/security/jwt/JwtAuthEntryPoint.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/backend/src/main/java/com/techgroup/techcop/security/jwt/JwtAuthenticationFilter.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/backend/src/main/java/com/techgroup/techcop/security/jwt/JwtService.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/backend/src/main/java/com/techgroup/techcop/security/model/CustomUserDetails.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/backend/src/main/java/com/techgroup/techcop/security/model/CustomUserDetailsService.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/backend/src/main/java/com/techgroup/techcop/service/auth/AuthenticationService.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/backend/src/main/java/com/techgroup/techcop/service/auth/RegistrationService.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/backend/src/main/java/com/techgroup/techcop/service/auth/impl/AuthenticationServiceImpl.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/backend/src/main/java/com/techgroup/techcop/service/auth/impl/RegistrationServiceImpl.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/backend/src/main/java/com/techgroup/techcop/service/cart/CartService.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/backend/src/main/java/com/techgroup/techcop/service/cart/impl/CartPriceService.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/backend/src/main/java/com/techgroup/techcop/service/cart/impl/CartServiceImpl.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/backend/src/main/java/com/techgroup/techcop/service/cart/impl/CartValidationService.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/backend/src/main/java/com/techgroup/techcop/service/customer/CustomerService.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/backend/src/main/java/com/techgroup/techcop/service/customer/impl/CustomerServiceImpl.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/backend/src/main/java/com/techgroup/techcop/service/product/ProductService.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/backend/src/main/java/com/techgroup/techcop/service/product/impl/ProductServiceImpl.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/backend/src/main/resources/META-INF/persistence.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/backend/src/main/resources/application.properties" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/backend/src/main/resources/application.yml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/backend/src/main/resources/templates/index.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/backend/src/main/resources/templates/paymentCancel.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/backend/src/main/resources/templates/paymentError.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/backend/src/main/resources/templates/paymentSuccess.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/backend/src/main/resources/templates/test.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/backend/test/java/com/TechGroup/TechCop/TechCopApplicationTests.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/backend/test/java/com/TechGroup/TechCop/controllers/CartControllerTest.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/backend/test/java/com/TechGroup/TechCop/controllers/CustomerControllerTest.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/backend/test/java/com/TechGroup/TechCop/controllers/ProductControllerTest.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/backend/test/java/com/TechGroup/TechCop/domain/CartItem.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/backend/test/java/com/TechGroup/TechCop/domain/Carts.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/backend/test/java/com/TechGroup/TechCop/domain/Customer.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/backend/test/java/com/TechGroup/TechCop/domain/Products.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/backend/test/java/com/TechGroup/TechCop/repository/CartsDBA.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/backend/test/java/com/TechGroup/TechCop/repository/CustomerDBA.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/backend/test/java/com/TechGroup/TechCop/repository/ProductsDBA.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/backend/test/java/com/TechGroup/TechCop/service/CartServiceImplTest.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/backend/test/java/com/TechGroup/TechCop/service/CartServiceTest.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/backend/test/java/com/TechGroup/TechCop/service/CustomerServiceImplTest.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/backend/test/java/com/TechGroup/TechCop/service/CustomerServiceTest.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/backend/test/java/com/TechGroup/TechCop/service/ProductServiceImplTest.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/backend/test/java/com/TechGroup/TechCop/service/ProductServiceTest.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/docker-compose.yml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/frontend/.env" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/frontend/.gitignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/frontend/Dockerfile" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/frontend/README.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/frontend/eslint.config.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/frontend/index.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/frontend/package-lock.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/frontend/package.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/frontend/postcss.config.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/frontend/public/vite.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/frontend/src/App.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/frontend/src/App.jsx" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/frontend/src/assets/icons/icon_url.jsx" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/frontend/src/assets/img/img_url.jsx" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/frontend/src/assets/react.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/frontend/src/components/IU/alerts/Alerts.jsx" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/frontend/src/components/IU/cards/FeatureCard.jsx" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/frontend/src/components/IU/cards/ProductCard.jsx" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/frontend/src/components/IU/cards/ProductShowcase.jsx" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/frontend/src/components/IU/consult/ConsultationSection.jsx" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/frontend/src/components/IU/footers/MainFooter.jsx" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/frontend/src/components/IU/forms/button.jsx" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/frontend/src/components/IU/forms/card.jsx" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/frontend/src/components/IU/forms/input.jsx" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/frontend/src/components/IU/forms/link.jsx" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/frontend/src/components/IU/grid/FeaturedGrid.jsx" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/frontend/src/components/IU/headers/Main.jsx" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/frontend/src/components/IU/hero/HeroSection.jsx" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/frontend/src/components/IU/image.jsx" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/frontend/src/components/auth/login/form.jsx" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/frontend/src/components/auth/passwordRecovery/form.jsx" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/frontend/src/components/auth/register/form.jsx" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/frontend/src/components/home/page.jsx" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/frontend/src/config/config.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/frontend/src/domain/users.jsx" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/frontend/src/hooks/auth/useLoginHook.jsx" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/frontend/src/hooks/auth/useRegisterHook.jsx" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/frontend/src/hooks/getImageById.jsx" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/frontend/src/index.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/frontend/src/layouts/auth/login/login_form.jsx" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/frontend/src/layouts/auth/passwordRecovery/password_recovery_form.jsx" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/frontend/src/layouts/auth/register/register_form.jsx" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/frontend/src/layouts/cart/cart.jsx" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/frontend/src/layouts/contact_form.jsx" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/frontend/src/layouts/home/home.jsx" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/frontend/src/layouts/users/admin/orders.jsx" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/frontend/src/layouts/users/admin/pagination.jsx" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/frontend/src/layouts/users/admin/products.jsx" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/frontend/src/layouts/users/admin/settings.jsx" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/frontend/src/layouts/users/admin/user_dashboard.jsx" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/frontend/src/layouts/users/admin/users.jsx" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/frontend/src/layouts/users/sidebar.jsx" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/frontend/src/main.jsx" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/frontend/src/routes.jsx" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/frontend/src/services/api/axios/axios_instance.jsx" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/frontend/src/services/api/axios/index.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/frontend/src/services/api/cloudinary/cloudinary.jsx" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/frontend/src/services/api/cloudinary/index.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/frontend/src/services/api/index.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/frontend/src/services/api/interceptors/index.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/frontend/src/services/api/interceptors/request_interceptor.jsx" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/frontend/src/services/api/interceptors/response_interceptor.jsx" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/frontend/src/services/customer/CustomerService.jsx" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/frontend/src/services/errors/error_handler.jsx" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/frontend/src/services/errors/index.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/frontend/src/services/generic/crud_services.jsx" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/frontend/src/services/generic/index.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/frontend/src/services/product/productService.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/frontend/tailwind.config.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/frontend/vite.config.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/frontend_TechCol/nginx.security.conf" beforeDir="false" afterPath="$PROJECT_DIR$/frontend_TechCol/nginx.security.conf" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/frontend_TechCol/public/_headers" beforeDir="false" afterPath="$PROJECT_DIR$/frontend_TechCol/public/_headers" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/frontend_TechCol/src/components/IU/headers/Main.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/frontend_TechCol/src/components/IU/headers/Main.jsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/frontend_TechCol/src/components/dashboard/entities.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/frontend_TechCol/src/components/dashboard/entities.jsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/frontend_TechCol/src/components/dashboard/settings.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/frontend_TechCol/src/components/dashboard/settings.jsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/frontend_TechCol/src/components/dashboard/sidebar.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/frontend_TechCol/src/components/dashboard/sidebar.jsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/frontend_TechCol/src/config/config.js" beforeDir="false" afterPath="$PROJECT_DIR$/frontend_TechCol/src/config/config.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/frontend_TechCol/src/config/security.js" beforeDir="false" afterPath="$PROJECT_DIR$/frontend_TechCol/src/config/security.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/frontend_TechCol/src/constants/ui.js" beforeDir="false" afterPath="$PROJECT_DIR$/frontend_TechCol/src/constants/ui.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/frontend_TechCol/src/hooks/useOrdersHook.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/frontend_TechCol/src/hooks/useOrdersHook.jsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/frontend_TechCol/src/services/customer/CustomerService.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/frontend_TechCol/src/services/customer/CustomerService.jsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/frontend_TechCol/src/services/entities/definitions/carts.js" beforeDir="false" afterPath="$PROJECT_DIR$/frontend_TechCol/src/services/entities/definitions/carts.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/frontend_TechCol/src/services/entities/definitions/customers.js" beforeDir="false" afterPath="$PROJECT_DIR$/frontend_TechCol/src/services/entities/definitions/customers.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/frontend_TechCol/src/services/entities/definitions/orders.js" beforeDir="false" afterPath="$PROJECT_DIR$/frontend_TechCol/src/services/entities/definitions/orders.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/frontend_TechCol/src/services/entities/definitions/products.js" beforeDir="false" afterPath="$PROJECT_DIR$/frontend_TechCol/src/services/entities/definitions/products.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/frontend_TechCol/src/services/order/orderService.js" beforeDir="false" afterPath="$PROJECT_DIR$/frontend_TechCol/src/services/order/orderService.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/frontend_TechCol/src/services/product/orderService.js" beforeDir="false" afterPath="$PROJECT_DIR$/frontend_TechCol/src/services/product/orderService.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/frontend_TechCol/src/services/product/productService.js" beforeDir="false" afterPath="$PROJECT_DIR$/frontend_TechCol/src/services/product/productService.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/frontend_TechCol/src/store/useStore.js" beforeDir="false" afterPath="$PROJECT_DIR$/frontend_TechCol/src/store/useStore.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/frontend_TechCol/vercel.json" beforeDir="false" afterPath="$PROJECT_DIR$/frontend_TechCol/vercel.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/frontend_TechCol/vite.config.js" beforeDir="false" afterPath="$PROJECT_DIR$/frontend_TechCol/vite.config.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/start.sh" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/status.sh" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/stop.sh" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/techcop.sql" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
-  <component name="FileTemplateManagerImpl">
-    <option name="RECENT_TEMPLATES">
-      <list>
-        <option value="Class" />
-      </list>
-    </option>
-  </component>
   <component name="Git.Settings">
-    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/Backend_TechCol" />
   </component>
-  <component name="GitHubPullRequestSearchHistory">{
-        &quot;lastFilter&quot;: {
-        &quot;state&quot;: &quot;OPEN&quot;,
-        &quot;assignee&quot;: &quot;caceres90&quot;
-        }
-        }</component>
-  <component name="GithubPullRequestsUISettings">{
-        &quot;selectedUrlAndAccountId&quot;: {
-        &quot;url&quot;: &quot;https://github.com/nicorioso/TechCop.git&quot;,
-        &quot;accountId&quot;: &quot;21420bc4-287d-4779-97a9-86e35dd75774&quot;
-        }
-        }</component>
-  <component name="ProjectColorInfo">{
-        &quot;associatedIndex&quot;: 3
-        }</component>
-  <component name="ProjectId" id="326ApD1UwMVMMn5OIAVBxGuLdmR" />
+  <component name="ProjectColorInfo"><![CDATA[{
+  "customColor": "",
+  "associatedIndex": 3
+}]]></component>
+  <component name="ProjectId" id="3AtAhZujEmp3N41gI89qnUgkgwV" />
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent">{
-  &quot;keyToString&quot;: {
-    &quot;Application.TechCopApplication.executor&quot;: &quot;Run&quot;,
-    &quot;RequestMappingsPanelOrder0&quot;: &quot;0&quot;,
-    &quot;RequestMappingsPanelOrder1&quot;: &quot;1&quot;,
-    &quot;RequestMappingsPanelWidth0&quot;: &quot;75&quot;,
-    &quot;RequestMappingsPanelWidth1&quot;: &quot;75&quot;,
-    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
-    &quot;RunOnceActivity.git.unshallow&quot;: &quot;true&quot;,
-    &quot;Spring Boot.TechCopApplication.executor&quot;: &quot;Run&quot;,
-    &quot;git-widget-placeholder&quot;: &quot;development&quot;,
-    &quot;ignore.virus.scanning.warn.message&quot;: &quot;true&quot;,
-    &quot;kotlin-language-version-configured&quot;: &quot;true&quot;,
-    &quot;last_opened_file_path&quot;: &quot;C:/Users/SENA.DESKTOP-BMPOLTR/Documents/TechCop&quot;,
-    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
-    &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
-    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
-    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
-    &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
-    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "Application.TechCopApplication.executor": "Run",
+    "ModuleVcsDetector.initialDetectionPerformed": "true",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "RunOnceActivity.git.unshallow": "true",
+    "git-widget-placeholder": "development",
+    "ignore.virus.scanning.warn.message": "true",
+    "kotlin-language-version-configured": "true"
   }
-}</component>
-  <component name="RunManager">
-    <configuration name="TechCopApplication" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.techgroup.techcop.TechCopApplication" />
-      <module name="backend" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="com.techgroup.techcop.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="mvnw" type="ShConfigurationType" temporary="true">
-      <option name="SCRIPT_TEXT" value="" />
-      <option name="INDEPENDENT_SCRIPT_PATH" value="true" />
-      <option name="SCRIPT_PATH" value="$PROJECT_DIR$/backend/mvnw" />
-      <option name="SCRIPT_OPTIONS" value="" />
-      <option name="INDEPENDENT_SCRIPT_WORKING_DIRECTORY" value="true" />
-      <option name="SCRIPT_WORKING_DIRECTORY" value="$PROJECT_DIR$/backend" />
-      <option name="INDEPENDENT_INTERPRETER_PATH" value="true" />
-      <option name="INTERPRETER_PATH" value="/bin/sh" />
-      <option name="INTERPRETER_OPTIONS" value="" />
-      <option name="EXECUTE_IN_TERMINAL" value="true" />
-      <option name="EXECUTE_SCRIPT_FILE" value="true" />
-      <envs />
-      <method v="2" />
-    </configuration>
-    <configuration name="TechCopApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" temporary="true" nameIsGenerated="true">
-      <option name="FRAME_DEACTIVATION_UPDATE_POLICY" value="UpdateClassesAndResources" />
-      <module name="backend" />
-      <option name="SPRING_BOOT_MAIN_CLASS" value="com.techgroup.techcop.TechCopApplication" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="com.techgroup.techcop.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <recent_temporary>
-      <list>
-        <item itemvalue="Application.TechCopApplication" />
-        <item itemvalue="Shell Script.mvnw" />
-      </list>
-    </recent_temporary>
-  </component>
+}]]></component>
   <component name="TaskManager">
     <task active="true" id="Default" summary="Default task">
-      <changelist id="31d1a554-74db-4c31-86f4-48d24e193389" name="Changes" comment="" />
-      <created>1756730828530</created>
+      <changelist id="8d392647-69b8-4cb1-988e-3229a26c93ad" name="Changes" comment="" />
+      <created>1773401618386</created>
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
-      <updated>1756730828530</updated>
-      <workItem from="1761665773154" duration="950000" />
-      <workItem from="1762786532422" duration="1610000" />
-      <workItem from="1762870701546" duration="3815000" />
-      <workItem from="1763033840909" duration="113000" />
-      <workItem from="1763473554331" duration="1084000" />
+      <updated>1773401618386</updated>
     </task>
     <servers />
-  </component>
-  <component name="TypeScriptGeneratedFilesManager">
-    <option name="version" value="3" />
   </component>
 </project>
